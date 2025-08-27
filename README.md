@@ -54,7 +54,7 @@ This file sets up the database connection and session handling:
 
 - `engine` and `SessionLocal`: Create a connection to the SQLite database (`personal_finance.db`) and manage sessions.
 - `Base`: The declarative base for all models.
-- `init_db()`: Initializes the database tables based on the models.
+- `db.db()`: Initializes the database tables based on the models.
 
 Alembic handles migrations for this database, allowing schema updates without losing data.
 
