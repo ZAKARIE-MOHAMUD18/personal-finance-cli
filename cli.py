@@ -104,8 +104,6 @@ def main():
         "6": ("List transactions", list_transactions),
         "7": ("Update transaction", update_transaction),
         "8": ("Delete transaction", delete_transaction),
-        "9": ("Report by category", report_by_category),
-        "10": ("Report by date", report_by_date),
         "0": ("Exit", None)
     }
 

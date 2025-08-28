@@ -85,14 +85,17 @@ All dependencies are managed via **Pipenv** (`Pipfile` and `Pipfile.lock`).
 
 ## Usage
 ```
-1. Activate your environment:-
-( pipenv shell )
+1.install pipenv:-
+   ( pipenv install )
 
-2. Run Alembic migrations to set up the database:-
-(pipenv run alembic upgrade head)
+2.Activate your environment:-
+   ( pipenv shell )
+
+2. install the dependencies:-
+    ( pipenv install sqlalchemy alembic tabulate )
 
 3. Launch the CLI:-
-(python cli.py)
+    ( python cli.py )
 
 ## Example CLI Session
 ```
